@@ -10,7 +10,8 @@
  * @width: Width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ *
+ * Return: Number of chars that  printed the charcter
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -27,8 +28,8 @@ int print_char(va_list types, char buffer[],
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @size: The Sizes of the  specifier
+ * Return: The Number of chars that printed
  */
 int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -80,10 +81,10 @@ int print_string(va_list types, char buffer[],
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width.
+ * @width: The get width.
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @size: The Sizes of specifier
+ * Return: The Number of chars that printed
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -105,8 +106,8 @@ int print_percent(va_list types, char buffer[],
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @size: The Size of  specifier
+ * Return: The Number of chars that printed
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
