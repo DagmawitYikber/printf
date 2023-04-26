@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * get_flags - Calculates active flags
- * @format: Formatted string in which to print the arguments
- * @i: take a parameter.
- * Return: Flags:
+ * get_flags - To Calculates active flags
+ * @format: Format of string in which to print the arguments
+ * @i: an entery parameter.
+ * @FLAGS_ARR: array of the flags
+ * @FLAGS_CH: array of characters
+ *
+ * Return: The Flags
  */
 int get_flags(const char *format, int *i)
 {
